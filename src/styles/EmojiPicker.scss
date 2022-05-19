@@ -1,0 +1,72 @@
+//colores
+
+$color-fondo: white;
+$color-container: #FF6F91;
+$color-container-picker: #845EC2;
+
+html,body{
+    color: #393E46;
+    background-color: $color-fondo;
+    font-family: 'Arial', sans-serif;
+}
+
+.container-app{
+    display: inline-flex;
+    width: 500px;
+    height: 300px;
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.20);
+    justify-content: center;
+    padding-top: 30px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #FF6F91;
+}
+
+.input-main{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.button-selector{
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.picker-container{
+    position: absolute;
+    background-color: $color-container-picker;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    border: solid 1px white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.picker-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.emoji-element{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input-search{
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
