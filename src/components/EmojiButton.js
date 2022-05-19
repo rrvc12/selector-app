@@ -4,7 +4,7 @@ function EmojiButton({emoji, onClick}){
         onClick(emoji);
     }
     return(
-        <button onClick={handleClick}>{emoji.symbol}</button>  
+        <button className='emoji-element' onClick={handleClick}>{emoji.symbol}</button>  
     );
 
 }

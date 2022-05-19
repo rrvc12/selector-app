@@ -7,8 +7,8 @@ function EmojiPickerInput(){
 
     return(
 
-        <div>
-            <input ref={refInput}/>
+        <div className='container-app'>
+            <input className='input-main' ref={refInput}/>
             <EmojiPicker ref={refInput}/>
         </div>
     );

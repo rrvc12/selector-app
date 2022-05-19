@@ -10,7 +10,7 @@ function EmojiSearch( {onSearch}){
     }
 
     return(   
-        <input type='text' onChange={handleChange} value={value}/>
+        <input className="input-search" type='text' onChange={handleChange} value={value}/>
     );
 
 }
